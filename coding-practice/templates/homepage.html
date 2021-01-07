@@ -4,6 +4,12 @@
 
 Welcome to the Site
 
-<p>#2) Create a form on this page that asks for the user's name.</p>
+<p>
+    <form action="/save-name" method="POST">
+        What's your name?
+        <input type="text" name="name">
+        <input type="submit">
+    </form>  
+</p>
 
 {% endblock %}
